@@ -19036,7 +19036,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 				} else {
 					this.add('-activate', target, 'move: Substitute', '[damage]');
 				}
-				if (move.recoil || move.id === 'chloroblast') {
+				if (move.recoil || move.chloroblastRecoil) {
 					this.damage(this.actions.calcRecoilDamage(damage, move, source), source, target, 'recoil');
 				}
 				if (move.drain) {
