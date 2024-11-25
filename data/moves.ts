@@ -370,6 +370,32 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		zMove: {boost: {spe: 2}},
 		contestType: "Clever",
 	},
+	amogus: {
+		num: 420,
+		accuracy: 69,
+		basePower:100,
+		category: "Physical",
+		name: "Amogus", 
+		PP: 69,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1, metronome: 1},
+		volatileStatus: 'partiallytrapped',
+		secondary: {
+			chance: 6.9,
+			self: {
+				boosts: {
+					atk: 2,
+					def: 2,
+					spa: 2,
+					spd: 2,
+					spe: 2,
+				},
+			},
+		},
+		target: "normal",
+		type: "Poison",
+		contestType: "Tough",
+	},
 	amnesia: {
 		num: 133,
 		accuracy: true,
